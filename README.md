@@ -1,6 +1,107 @@
-# nextstep_assignment
-3 questions 
+# nextstep
+## Mentor Matching System
 
+## Overview
+
+This project implements a mentor matching system that takes a student’s context as input and returns a ranked list of mentors along with a score and explanation for each match.
+
+The goal is to ensure that mentor recommendations are **relevant, explainable, and aligned with the student’s needs**, rather than just based on superficial similarities.
+
+---
+
+## Approach
+
+The system uses a **weighted scoring approach** instead of machine learning.
+
+Each mentor is evaluated across six signals:
+
+- Stage Alignment
+- Confusion Type Match
+- Domain Overlap
+- Advising Confidence
+- Mentoring Style Match
+- Recency
+
+Each signal contributes a weighted score, and the final score is the sum of all signals.
+
+This approach was chosen because:
+
+- It is **interpretable** — the system can explain why a mentor was recommended  
+- It works well with **small datasets** (20 mentors)  
+- The schema already defines meaningful features, so rules can directly encode them  
+
+The system also returns a **detailed breakdown** of scores, making the recommendations transparent.
+
+---
+
+## Scoring Design
+
+The weights used are:
+
+| Signal | Weight |
+|--------|--------|
+| Stage Alignment | 25 |
+| Confusion Type | 20 |
+| Domain Overlap | 20 |
+| Advising Confidence | 15 |
+| Mentoring Style | 12 |
+| Recency | 8 |
+
+Total = 100
+
+The design prioritizes **relevance first** (stage, confusion, domain), followed by **quality of interaction** (confidence, style, recency).
+
+---
+
+## Key Design Decisions
+
+- **Rule-based over ML**: Chosen due to limited data and need for explainability  
+- **Compatibility matrices**: Used for confusion type and mentoring style instead of exact matching  
+- **Weighted scoring**: Allows flexible tuning of importance of different signals  
+- **Breakdown output**: Each score is accompanied by a rationale for transparency  
+
+---
+
+## Known Limitations
+
+1. **Domain exploration depth is simplified**  
+   All domains are treated as “Attempted”, even though deeper levels like “Worked” or “Researched” exist.  
+   → This reduces accuracy in domain scoring.
+
+2. **Confusion compatibility is manually defined**  
+   The compatibility matrix is based on assumptions rather than real data.  
+   → It may not fully reflect real-world mentor effectiveness.
+
+3. **Stage alignment is weak as a standalone signal**  
+   All mentors have gone through all years, so year matching alone is not very discriminative.  
+   → It relies heavily on decision similarity.
+
+4. **No mentor availability or capacity handling**  
+   The system does not account for how many students a mentor can handle.
+
+5. **Domain matching is string-based**  
+   It only matches exact terms (e.g., “AI” ≠ “Artificial Intelligence”).
+
+6. **Branch is not currently used**  
+   Although available, branch is not included in scoring. It could improve results for academic or core-specific queries.
+
+---
+
+## Future Improvements
+
+- Learn weights dynamically from user feedback  
+- Replace string matching with semantic similarity (embeddings)  
+- Improve domain modeling with per-domain exploration levels  
+- Learn confusion compatibility from real interaction data  
+- Add mentor availability and capacity constraints  
+- Introduce hybrid model (rule-based + ML)
+
+---
+
+## Conclusion
+
+This system provides a **simple, interpretable, and effective baseline** for mentor matching.  
+It is designed to be extensible and can evolve into a more data-driven system as more usage data becomes available.
 ### Why did you choose this approach?
 
 I chose a weighted scoring approach instead of using machine learning mainly because I wanted the system to be easy to understand and explain.   
