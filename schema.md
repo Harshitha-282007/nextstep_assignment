@@ -618,7 +618,7 @@ Explicitly captures transition path.
 
 ---
 
-# 🔷 **2.5 Mentoring Capability & Style (NEW — IMPORTANT ADDITION)**
+# 🔷 **2.5 Mentoring Capability & Style**
 
 ---
 
