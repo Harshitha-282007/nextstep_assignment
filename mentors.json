@@ -1,0 +1,1404 @@
+[
+  {
+    "id": "M01",
+    "name": "Arjun Sharma",
+    "graduation_year": 2023,
+    "branch": "CSE",
+    "current_role": "SDE at Microsoft",
+    "current_domain": "Software",
+    "personality": "Introvert",
+    "mentoring_style": "Facilitative",
+    "advising_topics": [
+      "Internships",
+      "Placements",
+      "Skill development"
+    ],
+    "advising_confidence": {
+      "Internships": "High",
+      "Placements": "High",
+      "Skill development": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Software",
+          "Consulting"
+        ],
+        "primary_decision": "Internship vs exploration",
+        "decision_taken": "Chose software internship over consulting prep",
+        "alternatives_considered": [
+          "Consulting",
+          "Core"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [
+          "Rejections"
+        ],
+        "mistakes": [
+          "Late start"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Software",
+        "prep_strategy": [
+          "Competitive Programming",
+          "Projects"
+        ],
+        "rejection_reason": "Interview performance"
+      },
+      "Y3": {
+        "domains_considered": [
+          "Software"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Prioritized placements",
+        "alternatives_considered": [
+          "MS"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [
+          "Time management"
+        ],
+        "mistakes": [
+          "Overcommitment"
+        ]
+      }
+    }
+  },
+  {
+    "id": "M02",
+    "name": "Priya Iyer",
+    "graduation_year": 2022,
+    "branch": "ECE",
+    "current_role": "Consultant at McKinsey",
+    "current_domain": "Consulting",
+    "personality": "Extrovert",
+    "mentoring_style": "Directive",
+    "advising_topics": [
+      "Internships",
+      "Domain switching",
+      "Career direction"
+    ],
+    "advising_confidence": {
+      "Internships": "High",
+      "Domain switching": "High",
+      "Career direction": "High"
+    },
+    "switched_domain": true,
+    "switch_from": "Core Electronics",
+    "switch_to": "Consulting",
+    "switch_reason": "Interest",
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Core Electronics",
+          "Consulting",
+          "Software"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Dropped core track, pursued consulting",
+        "alternatives_considered": [
+          "VLSI internship",
+          "Software"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Wrong domain choice"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Consulting",
+        "prep_strategy": [
+          "Networking",
+          "Resume-based"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "Consulting"
+        ],
+        "primary_decision": "Domain finalization",
+        "decision_taken": "Committed to consulting full-time",
+        "alternatives_considered": [
+          "Software"
+        ],
+        "decision_confidence": "High",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Lack of Information",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M03",
+    "name": "Karan Verma",
+    "graduation_year": 2024,
+    "branch": "Aerospace",
+    "current_role": "Propulsion Engineer at ISRO",
+    "current_domain": "Aerospace / Defence",
+    "personality": "Introvert",
+    "mentoring_style": "Facilitative",
+    "advising_topics": [
+      "Career direction",
+      "Higher studies",
+      "Skill development"
+    ],
+    "advising_confidence": {
+      "Career direction": "High",
+      "Higher studies": "High",
+      "Skill development": "High"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Aerospace",
+          "Defence PSU",
+          "Research"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Committed to aerospace core track",
+        "alternatives_considered": [
+          "Software",
+          "Consulting"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "FOMO",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Lack of consistency"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Aerospace",
+        "prep_strategy": [
+          "Core subjects",
+          "Projects"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "Aerospace",
+          "GATE"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Secured PSU placement, rejected MS offer",
+        "alternatives_considered": [
+          "MS abroad",
+          "GATE rank"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M04",
+    "name": "Sneha Kulkarni",
+    "graduation_year": 2023,
+    "branch": "Mechanical",
+    "current_role": "Product Manager at Flipkart",
+    "current_domain": "Product",
+    "personality": "Ambivert",
+    "mentoring_style": "Balanced",
+    "advising_topics": [
+      "Domain switching",
+      "Career direction",
+      "Internships"
+    ],
+    "advising_confidence": {
+      "Domain switching": "High",
+      "Career direction": "High",
+      "Internships": "Medium"
+    },
+    "switched_domain": true,
+    "switch_from": "Core Mechanical",
+    "switch_to": "Product",
+    "switch_reason": "Interest",
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Core Mechanical",
+          "Product",
+          "Software"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Started exploring product management roles",
+        "alternatives_considered": [
+          "Auto sector internship",
+          "Software"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "FOMO",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Lack of consistency"
+        ],
+        "internship_attempt": "Applied but not selected",
+        "internship_domain": "Product",
+        "prep_strategy": [
+          "Networking",
+          "Projects"
+        ],
+        "rejection_reason": "Resume shortlisting issue"
+      },
+      "Y3": {
+        "domains_considered": [
+          "Product",
+          "Consulting"
+        ],
+        "primary_decision": "Domain finalization",
+        "decision_taken": "Committed to product management",
+        "alternatives_considered": [
+          "Consulting"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [
+          "Time management"
+        ],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M05",
+    "name": "Nikhil Rao",
+    "graduation_year": 2022,
+    "branch": "Chemical",
+    "current_role": "Process Engineer at Reliance Industries",
+    "current_domain": "Chemical Process",
+    "personality": "Introvert",
+    "mentoring_style": "Facilitative",
+    "advising_topics": [
+      "Career direction",
+      "Internships",
+      "Higher studies"
+    ],
+    "advising_confidence": {
+      "Career direction": "High",
+      "Internships": "High",
+      "Higher studies": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Chemical Process",
+          "Research",
+          "Consulting"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Stayed with chemical engineering core track",
+        "alternatives_considered": [
+          "Consulting",
+          "Oil & Gas"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [
+          "Lack of Information"
+        ],
+        "mistakes": [
+          "Late start"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Chemical Process",
+        "prep_strategy": [
+          "Core subjects",
+          "Projects"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "Chemical Process",
+          "Oil & Gas"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose industry placement over MS",
+        "alternatives_considered": [
+          "MS Chemical Engineering"
+        ],
+        "decision_confidence": "High",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M06",
+    "name": "Ananya Singh",
+    "graduation_year": 2024,
+    "branch": "EE",
+    "current_role": "VLSI Design Engineer at Qualcomm",
+    "current_domain": "Core Electronics",
+    "personality": "Introvert",
+    "mentoring_style": "Facilitative",
+    "advising_topics": [
+      "Career direction",
+      "Higher studies",
+      "Skill development"
+    ],
+    "advising_confidence": {
+      "Career direction": "High",
+      "Higher studies": "High",
+      "Skill development": "High"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Core Electronics",
+          "Software",
+          "Research"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Stayed in core \u2014 pursued VLSI specialisation",
+        "alternatives_considered": [
+          "Software SDE",
+          "Data Science"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "FOMO",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure",
+          "Academic difficulty"
+        ],
+        "mistakes": [
+          "Lack of consistency"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Core Electronics",
+        "prep_strategy": [
+          "Core subjects",
+          "Projects"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "Core Electronics",
+          "MS Abroad"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose industry placement at Qualcomm",
+        "alternatives_considered": [
+          "MS ECE USA"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M07",
+    "name": "Rohan Mehta",
+    "graduation_year": 2024,
+    "branch": "CSE",
+    "current_role": "MS Student at CMU",
+    "current_domain": "Research",
+    "personality": "Introvert",
+    "mentoring_style": "Facilitative",
+    "advising_topics": [
+      "Higher studies",
+      "Skill development",
+      "Internships"
+    ],
+    "advising_confidence": {
+      "Higher studies": "High",
+      "Skill development": "High",
+      "Internships": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Research",
+          "Software"
+        ],
+        "primary_decision": "Internship vs exploration",
+        "decision_taken": "Focused on research projects over industry internship",
+        "alternatives_considered": [
+          "Industry internship"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Overwhelmed",
+        "problem_category": [
+          "Career",
+          "Academic"
+        ],
+        "struggles": [
+          "Academic difficulty"
+        ],
+        "mistakes": [
+          "Overcommitment"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Research",
+        "prep_strategy": [
+          "Projects",
+          "Core subjects"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "Research",
+          "Software"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose MS over industry placement",
+        "alternatives_considered": [
+          "Industry job"
+        ],
+        "decision_confidence": "High",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M08",
+    "name": "Devika Nair",
+    "graduation_year": 2023,
+    "branch": "BioTech",
+    "current_role": "Research Associate at Biocon",
+    "current_domain": "BioTech / Life Sciences",
+    "personality": "Ambivert",
+    "mentoring_style": "Balanced",
+    "advising_topics": [
+      "Career direction",
+      "Higher studies",
+      "Internships"
+    ],
+    "advising_confidence": {
+      "Career direction": "High",
+      "Higher studies": "High",
+      "Internships": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "BioTech",
+          "Pharma",
+          "Research"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Pursued biotech core internship",
+        "alternatives_considered": [
+          "Data Science",
+          "Consulting"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Lack of consistency"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "BioTech",
+        "prep_strategy": [
+          "Core subjects",
+          "Projects"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "BioTech",
+          "MS abroad",
+          "PhD"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose industry over PhD",
+        "alternatives_considered": [
+          "PhD",
+          "MS Life Sciences"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M09",
+    "name": "Aditya Bansal",
+    "graduation_year": 2022,
+    "branch": "Mechanical",
+    "current_role": "MBA student at IIM-A",
+    "current_domain": "Management",
+    "personality": "Extrovert",
+    "mentoring_style": "Directive",
+    "advising_topics": [
+      "Higher studies",
+      "Domain switching",
+      "Career direction"
+    ],
+    "advising_confidence": {
+      "Higher studies": "High",
+      "Domain switching": "High",
+      "Career direction": "High"
+    },
+    "switched_domain": true,
+    "switch_from": "Core Mechanical",
+    "switch_to": "Management",
+    "switch_reason": "Growth",
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Core Mechanical",
+          "Consulting",
+          "Management"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Explored consulting internships alongside core",
+        "alternatives_considered": [
+          "Auto sector internship"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "Medium",
+        "confusion_type": "FOMO",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Overcommitment"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Consulting",
+        "prep_strategy": [
+          "Networking",
+          "Resume-based"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "Core",
+          "Management",
+          "Consulting"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose MBA over core placement",
+        "alternatives_considered": [
+          "Core job",
+          "Consulting"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Late start"
+        ]
+      }
+    }
+  },
+  {
+    "id": "M10",
+    "name": "Ishaan Bose",
+    "graduation_year": 2021,
+    "branch": "CSE",
+    "current_role": "Founder at EdTech startup",
+    "current_domain": "Entrepreneurship",
+    "personality": "Extrovert",
+    "mentoring_style": "Directive",
+    "advising_topics": [
+      "Career direction",
+      "Domain switching",
+      "Time management"
+    ],
+    "advising_confidence": {
+      "Career direction": "High",
+      "Domain switching": "High",
+      "Time management": "High"
+    },
+    "switched_domain": true,
+    "switch_from": "Software",
+    "switch_to": "Entrepreneurship",
+    "switch_reason": "Interest",
+    "year_journey": {
+      "Y1": {
+        "domains_considered": [
+          "Software",
+          "Entrepreneurship"
+        ],
+        "primary_decision": "Clubs / exploration",
+        "decision_taken": "Joined technical and entrepreneurship clubs",
+        "alternatives_considered": [
+          "Cultural clubs"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "FOMO",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Time management"
+        ],
+        "mistakes": [
+          "Overcommitment"
+        ]
+      },
+      "Y2": {
+        "domains_considered": [
+          "Software",
+          "Entrepreneurship"
+        ],
+        "primary_decision": "Internship vs exploration",
+        "decision_taken": "Chose startup internship over big-tech offer",
+        "alternatives_considered": [
+          "Product company internship"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [
+          "Rejections"
+        ],
+        "mistakes": [
+          "Wrong domain choice"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Entrepreneurship",
+        "prep_strategy": [
+          "Networking",
+          "Projects"
+        ]
+      }
+    }
+  },
+  {
+    "id": "M11",
+    "name": "Harish Kumar",
+    "graduation_year": 2023,
+    "branch": "Civil",
+    "current_role": "Structural Engineer at L&T",
+    "current_domain": "Core Civil",
+    "personality": "Ambivert",
+    "mentoring_style": "Balanced",
+    "advising_topics": [
+      "Career direction",
+      "Internships",
+      "Skill development"
+    ],
+    "advising_confidence": {
+      "Career direction": "High",
+      "Internships": "High",
+      "Skill development": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Civil",
+          "Consulting",
+          "Infrastructure"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Stayed in core civil engineering",
+        "alternatives_considered": [
+          "Consulting",
+          "Finance"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "FOMO",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Lack of consistency"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Core Civil",
+        "prep_strategy": [
+          "Core subjects",
+          "Projects"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "Civil",
+          "GATE",
+          "Urban planning"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose placement at L&T",
+        "alternatives_considered": [
+          "GATE",
+          "Urban planning MS"
+        ],
+        "decision_confidence": "High",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M12",
+    "name": "Meera Pillai",
+    "graduation_year": 2023,
+    "branch": "CSE",
+    "current_role": "Backend Engineer at Zepto",
+    "current_domain": "Software",
+    "personality": "Ambivert",
+    "mentoring_style": "Balanced",
+    "advising_topics": [
+      "Internships",
+      "Placements",
+      "Time management"
+    ],
+    "advising_confidence": {
+      "Internships": "High",
+      "Placements": "Medium",
+      "Time management": "High"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y1": {
+        "domains_considered": [
+          "Software",
+          "Design"
+        ],
+        "primary_decision": "Clubs / exploration",
+        "decision_taken": "Joined technical club, dropped cultural after overload",
+        "alternatives_considered": [
+          "Cultural"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "Medium",
+        "confusion_type": "FOMO",
+        "problem_category": [
+          "FOMO"
+        ],
+        "struggles": [
+          "Time management",
+          "Academic difficulty"
+        ],
+        "mistakes": [
+          "Overcommitment"
+        ]
+      },
+      "Y2": {
+        "domains_considered": [
+          "Software"
+        ],
+        "primary_decision": "Internship vs exploration",
+        "decision_taken": "Focused on getting internship",
+        "alternatives_considered": [],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Overwhelmed",
+        "problem_category": [
+          "Career",
+          "Time Management"
+        ],
+        "struggles": [
+          "Time management"
+        ],
+        "mistakes": [
+          "Lack of consistency"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Software",
+        "prep_strategy": [
+          "Projects",
+          "Competitive Programming"
+        ]
+      }
+    }
+  },
+  {
+    "id": "M13",
+    "name": "Siddharth Rane",
+    "graduation_year": 2022,
+    "branch": "Metallurgy",
+    "current_role": "Materials Analyst at Tata Steel",
+    "current_domain": "Core Metallurgy",
+    "personality": "Introvert",
+    "mentoring_style": "Facilitative",
+    "advising_topics": [
+      "Career direction",
+      "Internships",
+      "Higher studies"
+    ],
+    "advising_confidence": {
+      "Career direction": "High",
+      "Internships": "High",
+      "Higher studies": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Metallurgy",
+          "Materials Science",
+          "Consulting"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Stayed in metallurgy, ignored consulting FOMO",
+        "alternatives_considered": [
+          "Consulting",
+          "Software"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "FOMO",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Late start"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Core Metallurgy",
+        "prep_strategy": [
+          "Core subjects",
+          "Projects"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "Steel",
+          "R&D",
+          "MS Materials"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose Tata Steel placement",
+        "alternatives_considered": [
+          "MS Materials Science abroad"
+        ],
+        "decision_confidence": "High",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M14",
+    "name": "Tanvi Shah",
+    "graduation_year": 2024,
+    "branch": "CSE",
+    "current_role": "SDE at Atlassian",
+    "current_domain": "Software",
+    "personality": "Extrovert",
+    "mentoring_style": "Directive",
+    "advising_topics": [
+      "Internships",
+      "Placements",
+      "Skill development"
+    ],
+    "advising_confidence": {
+      "Internships": "High",
+      "Placements": "High",
+      "Skill development": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Software",
+          "Consulting"
+        ],
+        "primary_decision": "Internship vs exploration",
+        "decision_taken": "Secured software internship",
+        "alternatives_considered": [
+          "Consulting"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [
+          "Rejections"
+        ],
+        "mistakes": [
+          "Late start"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Software",
+        "prep_strategy": [
+          "Competitive Programming",
+          "Resume-based"
+        ],
+        "rejection_reason": "Resume shortlisting issue"
+      }
+    }
+  },
+  {
+    "id": "M15",
+    "name": "Pooja Ramachandran",
+    "graduation_year": 2024,
+    "branch": "CSE",
+    "current_role": "ML Engineer at Nvidia",
+    "current_domain": "Data Science",
+    "personality": "Introvert",
+    "mentoring_style": "Facilitative",
+    "advising_topics": [
+      "Skill development",
+      "Internships",
+      "Higher studies"
+    ],
+    "advising_confidence": {
+      "Skill development": "High",
+      "Internships": "High",
+      "Higher studies": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Data Science",
+          "Software",
+          "Research"
+        ],
+        "primary_decision": "Internship vs exploration",
+        "decision_taken": "Built ML portfolio and applied for DS roles",
+        "alternatives_considered": [
+          "Software internship"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Overwhelmed",
+        "problem_category": [
+          "Career",
+          "Academic"
+        ],
+        "struggles": [
+          "Academic difficulty"
+        ],
+        "mistakes": [
+          "Lack of consistency"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Data Science",
+        "prep_strategy": [
+          "Projects",
+          "Core subjects"
+        ]
+      }
+    }
+  },
+  {
+    "id": "M16",
+    "name": "Vikram Reddy",
+    "graduation_year": 2023,
+    "branch": "Industrial Engineering",
+    "current_role": "Supply Chain Analyst at Maersk",
+    "current_domain": "Supply Chain / Operations",
+    "personality": "Ambivert",
+    "mentoring_style": "Balanced",
+    "advising_topics": [
+      "Career direction",
+      "Internships",
+      "Domain switching"
+    ],
+    "advising_confidence": {
+      "Career direction": "High",
+      "Internships": "High",
+      "Domain switching": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Supply Chain",
+          "Consulting",
+          "Operations"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Pursued supply chain internship",
+        "alternatives_considered": [
+          "Consulting",
+          "Finance"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [
+          "Lack of Information"
+        ],
+        "mistakes": [
+          "Late start"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Supply Chain",
+        "prep_strategy": [
+          "Core subjects",
+          "Networking"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "Supply Chain",
+          "Operations consulting"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose industry placement",
+        "alternatives_considered": [
+          "MBA"
+        ],
+        "decision_confidence": "High",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M17",
+    "name": "Aarav Kapoor",
+    "graduation_year": 2023,
+    "branch": "CSE",
+    "current_role": "Quant at Goldman Sachs",
+    "current_domain": "Finance",
+    "personality": "Introvert",
+    "mentoring_style": "Directive",
+    "advising_topics": [
+      "Career direction",
+      "Domain switching",
+      "Internships"
+    ],
+    "advising_confidence": {
+      "Career direction": "High",
+      "Domain switching": "High",
+      "Internships": "High"
+    },
+    "switched_domain": true,
+    "switch_from": "Software",
+    "switch_to": "Finance",
+    "switch_reason": "Interest",
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Software",
+          "Finance",
+          "Consulting"
+        ],
+        "primary_decision": "Internship vs exploration",
+        "decision_taken": "Chose finance internship over software",
+        "alternatives_considered": [
+          "Software SDE",
+          "Consulting"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Wrong domain choice"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Finance",
+        "prep_strategy": [
+          "Networking",
+          "Resume-based"
+        ]
+      }
+    }
+  },
+  {
+    "id": "M18",
+    "name": "Leena Mathew",
+    "graduation_year": 2024,
+    "branch": "Aerospace",
+    "current_role": "MS Student at TU Delft (Aerospace)",
+    "current_domain": "Research / Aerospace",
+    "personality": "Introvert",
+    "mentoring_style": "Facilitative",
+    "advising_topics": [
+      "Higher studies",
+      "Career direction",
+      "Internships"
+    ],
+    "advising_confidence": {
+      "Higher studies": "High",
+      "Career direction": "High",
+      "Internships": "Medium"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Aerospace",
+          "Defence",
+          "Research"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Stayed in aerospace, pursued research internship",
+        "alternatives_considered": [
+          "Consulting",
+          "Software"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "FOMO",
+        "problem_category": [
+          "Career",
+          "FOMO"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Lack of consistency"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Aerospace",
+        "prep_strategy": [
+          "Core subjects",
+          "Projects"
+        ]
+      },
+      "Y3": {
+        "domains_considered": [
+          "MS abroad",
+          "DRDO",
+          "Industry"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose MS at TU Delft over DRDO job",
+        "alternatives_considered": [
+          "DRDO",
+          "HAL"
+        ],
+        "decision_confidence": "Medium",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  },
+  {
+    "id": "M19",
+    "name": "Dev Malhotra",
+    "graduation_year": 2022,
+    "branch": "Chemical",
+    "current_role": "Analyst at Bain",
+    "current_domain": "Consulting",
+    "personality": "Extrovert",
+    "mentoring_style": "Directive",
+    "advising_topics": [
+      "Domain switching",
+      "Career direction",
+      "Internships"
+    ],
+    "advising_confidence": {
+      "Domain switching": "High",
+      "Career direction": "High",
+      "Internships": "High"
+    },
+    "switched_domain": true,
+    "switch_from": "Chemical Process",
+    "switch_to": "Consulting",
+    "switch_reason": "Growth",
+    "year_journey": {
+      "Y2": {
+        "domains_considered": [
+          "Chemical Process",
+          "Consulting",
+          "Finance"
+        ],
+        "primary_decision": "Core vs non-core",
+        "decision_taken": "Switched to consulting track from chemical core",
+        "alternatives_considered": [
+          "Core chemical engineering"
+        ],
+        "decision_confidence": "Low",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [
+          "Peer pressure"
+        ],
+        "mistakes": [
+          "Late start"
+        ],
+        "internship_attempt": "Secured internship",
+        "internship_domain": "Consulting",
+        "prep_strategy": [
+          "Networking",
+          "Resume-based"
+        ]
+      }
+    }
+  },
+  {
+    "id": "M20",
+    "name": "Rahul Gupta",
+    "graduation_year": 2021,
+    "branch": "EE",
+    "current_role": "Research Scientist at IISc",
+    "current_domain": "Research",
+    "personality": "Introvert",
+    "mentoring_style": "Facilitative",
+    "advising_topics": [
+      "Higher studies",
+      "Career direction",
+      "Skill development"
+    ],
+    "advising_confidence": {
+      "Higher studies": "High",
+      "Career direction": "Medium",
+      "Skill development": "High"
+    },
+    "switched_domain": false,
+    "year_journey": {
+      "Y3": {
+        "domains_considered": [
+          "Research",
+          "Core EE"
+        ],
+        "primary_decision": "Placement vs higher studies",
+        "decision_taken": "Chose research path over industry",
+        "alternatives_considered": [
+          "Industry EE job"
+        ],
+        "decision_confidence": "High",
+        "outcome_satisfaction": "High",
+        "confusion_type": "Indecision",
+        "problem_category": [
+          "Career"
+        ],
+        "struggles": [],
+        "mistakes": []
+      }
+    }
+  }
+]
