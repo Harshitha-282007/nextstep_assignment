@@ -413,11 +413,9 @@ Represents final outcome; enables goal-oriented matching.
 
 Each mentor’s journey is structured into **year buckets (Y1–Y4)**, directly mirroring the student schema. All fields below are captured **within each year**, ensuring context-specific matching.
 
----
 
 ## **For Each Year (Y1, Y2, Y3, Y4), capture:**
 
----
 
 ### **Domains Considered (list)**
 
@@ -436,8 +434,6 @@ For each domain:
 
 Captures depth of engagement; distinguishes superficial interest from serious pursuit.
 
----
-
 ### **Primary Decision Faced (year-conditional )**
 
 The valid options depend on the year:
@@ -448,8 +444,6 @@ The valid options depend on the year:
 - **Y4:** Job vs higher studies / Domain switching
 
 Encodes the exact dilemma at that stage; ensures alignment with student decision context.
-
----
 
 ### **Decision Taken (structured)**
 
@@ -462,13 +456,9 @@ Examples:
 
 Represents the final action taken.
 
----
-
 ### **Alternatives Considered (list)**
 
 Captures competing options (e.g., “Consulting vs Software”); enables matching with students facing the same trade-offs.
-
----
 
 ### **Decision Confidence Level (Low / Medium / High)**
 
@@ -479,8 +469,6 @@ Indicates certainty at the time of decision.
 - Low-confidence students are prioritized to match with mentors who had **low or medium confidence but achieved stable outcomes**, as they can better guide uncertain decision-making.
 - High-confidence mentors are better matched to students who already have clarity and need validation.
 
----
-
 ### **Outcome Satisfaction (Low / Medium / High)**
 
 Reflects long-term satisfaction with the decision.
@@ -489,8 +477,6 @@ Reflects long-term satisfaction with the decision.
 
 - Mentors with **high satisfaction** are prioritized for guidance on similar paths.
 - Mentors with **low satisfaction** are valuable for cautionary guidance when students are considering the same decision.
-
----
 
 ### **Confusion Type Faced (mapped to student schema)**
 
@@ -501,7 +487,6 @@ Reflects long-term satisfaction with the decision.
 
 Ensures direct compatibility with student confusion signals.
 
----
 
 ### **Problem Category Faced (multi-select)**
 
@@ -513,8 +498,6 @@ Ensures direct compatibility with student confusion signals.
 
 Captures the nature of the challenge within that year.
 
----
-
 ### **Struggles Faced (multi-select, year-specific)**
 
 - Academic difficulty
@@ -523,8 +506,6 @@ Captures the nature of the challenge within that year.
 - Peer pressure
 
 Anchored to the specific year, ensuring context-aware matching.
-
----
 
 ### **Mistakes Made (structured, year-specific)**
 
@@ -537,11 +518,7 @@ Allows matching with students facing similar stage-specific risks.
 
 ---
 
----
-
 # **2.3 Internship-Specific Structure (Within Y2 & Y3)**
-
----
 
 ### **Internship Attempts (per year)**
 
@@ -551,13 +528,9 @@ Allows matching with students facing similar stage-specific risks.
 
 Captures effort-outcome relationship at the correct stage.
 
----
-
 ### **Internship Domain(s)**
 
 Specifies domain(s) pursued.
-
----
 
 ### **Preparation Strategy (multi-select)**
 
@@ -568,8 +541,6 @@ Specifies domain(s) pursued.
 - Resume-based
 
 Captures preparation approach.
-
----
 
 ### **Internship Rejection Reason (if applicable)**
 
@@ -582,30 +553,20 @@ Provides actionable insight for matching with similar student bottlenecks.
 
 ---
 
----
-
-# 🔷 **2.4 Domain Switching Behavior**
-
----
+# **2.4 Domain Switching Behavior**
 
 ### **Switched Domain (Yes / No)**
 
 Indicates whether a transition occurred.
-
----
 
 ### **Switch Timing**
 
 - During college
 - After starting job
 
----
-
 ### **From Domain → To Domain**
 
 Explicitly captures transition path.
-
----
 
 ### **Reason for Switching**
 
@@ -615,12 +576,7 @@ Explicitly captures transition path.
 - Burnout
 
 ---
-
----
-
-# 🔷 **2.5 Mentoring Capability & Style**
-
----
+# **2.5 Mentoring Capability & Style**
 
 ### **Topics Comfortable Advising On (multi-select)**
 
@@ -632,9 +588,6 @@ Explicitly captures transition path.
 - Time management
 
 Ensures mentors are matched only in areas they feel confident advising on, improving quality of interaction.
-
----
-
 ### **Advising Confidence per Topic (Low / Medium / High)**
 
 Captures self-assessed expertise in each topic.
@@ -642,8 +595,6 @@ Captures self-assessed expertise in each topic.
 **Matching Contribution:**
 
 Mentors are prioritized when they have **high confidence in advising on the student’s problem area**, ensuring reliable guidance.
-
----
 
 ### **Mentoring Style (single-select)**
 
@@ -658,11 +609,7 @@ Mentors are prioritized when they have **high confidence in advising on the stud
 
 ---
 
----
-
-# 🔷 **2.6 Campus Involvement**
-
----
+# **2.6 Campus Involvement**
 
 ### **Clubs/PORs (with role level)**
 
@@ -678,8 +625,6 @@ Captures leadership and engagement level
 
  The system handles these cases through **minimum viable feature extraction, fallback ranking rules, and feedback-driven refinement**.
 
----
-
 ## **3.1 New Student (No Prior Data)**
 
 When a student has no prior interaction history, the system generates a minimal feature vector through a short onboarding:
@@ -687,8 +632,6 @@ When a student has no prior interaction history, the system generates a minimal 
 - **Year**
 - **Primary Problem Category**
 - **Interest Fields**
-
----
 
 ### **Fallback Matching Strategy**
 
@@ -703,8 +646,6 @@ Mentors who have explored multiple domains (higher number of domains considered 
 4. **Advising Confidence Filter**
 Only mentors with medium/high advising confidence in the student’s problem category are considered.
 
----
-
 ### **Rationale**
 
 This ensures that even with minimal input, the system surfaces mentors who:
@@ -718,9 +659,6 @@ This ensures that even with minimal input, the system surfaces mentors who:
 ## **3.2 New Mentor (No Interaction History)**
 
 When a mentor signs up, they are required to fill **structured schema fields** (year-wise decisions, domains explored, etc.), but lack performance history.
-
----
-
 ### **Matching Strategy**
 
 - New mentors are **included in matching**, but with a **confidence weight penalty**
@@ -730,8 +668,6 @@ When a mentor signs up, they are required to fill **structured schema fields** (
 - They are **not excluded**, but are:
     - Less likely to appear at the top initially
     - Gradually promoted based on feedback
-
----
 
 ### **Rationale**
 
@@ -746,8 +682,6 @@ This avoids:
 
 When both student and mentor lack interaction history, the system relies entirely on **onboarding-derived minimal structure**.
 
----
-
 ### **Mandatory Onboarding (for both)**
 
 Even in cold-cold scenarios, the system enforces:
@@ -756,8 +690,6 @@ Even in cold-cold scenarios, the system enforces:
 - **Mentor:** Graduation Year, Current Domain, Topics Comfortable Advising On
 
 This ensures a **minimum comparable feature space** exists.
-
----
 
 ### **Fallback Matching Strategy**
 
@@ -771,9 +703,6 @@ Match between student interest fields and mentor current domain.
 Mentor must have declared confidence in the student’s problem category.
 4. **Diversity** 
 If multiple mentors are equally ranked, randomly select among top candidates to avoid bias concentration.
-
----
-
 ### **Rationale**
 
 This ensures:
@@ -784,11 +713,9 @@ This ensures:
 
 ---
 
-# 🔷 **3.4 Feedback Loop Design (Critical Component)**
+#  **3.4 Feedback Loop Design (Critical Component)**
 
 The system continuously improves matching quality using post-interaction feedback.
-
----
 
 ## **Feedback Signals Collected**
 
@@ -800,8 +727,6 @@ After each session:
 - **Follow-up Interaction (Yes / No)**
 - **Topic Tags Covered  etc ,**
 
----
-
 ## **How Feedback Updates Matching**
 
 1. **Mentor Reliability Score**
@@ -812,8 +737,6 @@ If a mentor consistently receives high ratings in a topic, their advising confid
 Low ratings trigger penalty for similar future matches with the same feature combination.
 4. **Repeat Interaction Boost**
 If a student returns to the same mentor, similar mentor profiles are boosted for future matches.
-
----
 
 ## **Rationale**
 
