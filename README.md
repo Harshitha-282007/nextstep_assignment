@@ -1,28 +1,37 @@
 # nextstep
 ## Mentor Matching System
+### Student–Mentor Matching Algorithm
+This project implements a weighted scoring system that takes a student’s profile as input and returns a ranked list of suitable mentors, along with a breakdown of scores. It is based on the student–mentor schema designed earlier and tries to make the matching process more structured and explainable.
 
-## Overview
+### How the Algorithm Works
+The algorithm evaluates each mentor using six different signals, assigns weights to each of them, and calculates a final score out of 100.
 
-This project implements a mentor matching system that takes a student’s context as input and returns a ranked list of mentors along with a score and explanation for each match.
+### Pipeline:
+student input → scoring functions → weighted sum → ranked mentor list
 
-The goal is to ensure that mentor recommendations are **relevant, explainable, and aligned with the student’s needs**, rather than just based on superficial similarities.
+Each mentor also gets a per-signal breakdown, so the result is easy to interpret instead of being a black-box score.s.
 
 ---
 
-## Approach
+### Scoring Logic 
+* Stage Alignment:
+Exact year match is required. Extra score if the mentor’s decisions match the student’s focus.
+* Confusion Type:
+Uses a compatibility matrix instead of exact matching, since similar confusion types can still help.
+* Domain Overlap:
+Takes the best matching domain instead of averaging, since one strong match is more useful.
+* Advising Confidence:
+Looks at relevant topics first, then checks confidence level (high/medium/low).
+* Mentoring Style:
+Uses a predefined table based on personality + guidance preference.
+* Recency:
+Step-based scoring depending on years since graduation.
+Dataset Overview
+Around 20 mentor profiles
+Covers multiple branches (CSE, EE, Mechanical, Aerospace, etc.)
+* Includes variety of outcomes: core jobs, non-core roles, research, higher studies, startups
 
-The system uses a **weighted scoring approach** instead of machine learning.
-
-Each mentor is evaluated across six signals:
-
-- Stage Alignment
-- Confusion Type Match
-- Domain Overlap
-- Advising Confidence
-- Mentoring Style Match
-- Recency
-
-Each signal contributes a weighted score, and the final score is the sum of all signals.
+This diversity helps test the algorithm across different career paths.
 
 This approach was chosen because:
 
@@ -102,6 +111,8 @@ The design prioritizes **relevance first** (stage, confusion, domain), followed 
 
 This system provides a **simple, interpretable, and effective baseline** for mentor matching.  
 It is designed to be extensible and can evolve into a more data-driven system as more usage data becomes available.
+
+## Assignment questions 
 ### Why did you choose this approach?
 
 I chose a weighted scoring approach instead of using machine learning mainly because I wanted the system to be easy to understand and explain.   
